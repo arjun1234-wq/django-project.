@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+     <div class="container">
+         <div class="topbar">
+         <img src="./images project/CD-default-logo.svg">
+         </div>
+         <img src="./carlogos/BACK.jpg" style="width:100%;">
+         <div class="centered">
+         <form>
+         <label>Username</label>
+         <input type="text"placeholder="Enter username">
+         <label>Password</label>
+         <input type="password" placeholder="Password">
+         <input type="submit"> 
+         </form>   </div>
+     </div>
+</body>
+<style>
+*{
+  padding: 0;
+   margin: 0;
+}
+.container {
+  position: fixed;
+  width: 1400px;
+  text-align: center;
+  background-image: url(./carlogos/BACK.jpg);
+}
+.container img{
+    height: 650px;
+}
+.centered {
+  display: flex;
+  flex-direction: column ; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.topbar img{
+    
+    display: flex;
+    height: 50px;
+    width: 100PX;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    gap: 10px;
+}
+
+</style>
+</html>
